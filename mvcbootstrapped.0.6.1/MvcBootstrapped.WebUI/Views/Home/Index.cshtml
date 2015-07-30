@@ -1,0 +1,16 @@
+﻿@{
+	String ns = "Home.Index";
+    ViewBag.Title = Html.LocalizedString("Title", ns);
+}
+<h2>@ViewBag.Message</h2>
+<p>
+    To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
+</p>
+<p>Async status:
+@if (!String.IsNullOrEmpty((String)HttpContext.Current.Cache["AsyncMessage"])) {
+	@HttpContext.Current.Cache["AsyncMessage"].ToString()
+}
+else{
+	<text>Nothing yet!</text>
+}
+</p>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Localizations>
+	<Namespace Name="Navigation.TopNavigation">
+		<Text Key="Home.Index">
+			<Translation Language="en-GB"><![CDATA[Home]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Hjem]]></Translation>
+		</Text>
+		<Text Key="Home.About">
+			<Translation Language="en-GB"><![CDATA[About]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Om]]></Translation>
+		</Text>
+		<Text Key="Account.ChangePassword">
+			<Translation Language="en-GB"><![CDATA[Change Password]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Skift kodeord]]></Translation>
+		</Text>
+	</Namespace>
+	<Namespace Name="CommonTexts">
+		<Text Key="Title">
+			<Translation Language="en-GB"><![CDATA[My MVC Application]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Min MVC applikation]]></Translation>
+		</Text>
+		<Text Key="WelcomeText">
+			<Translation Language="en-GB"><![CDATA[Welcome {Username}]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Velkommen {Username}]]></Translation>
+		</Text>
+		<Text Key="LogOffText">
+			<Translation Language="en-GB"><![CDATA[Log Off]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Log af]]></Translation>
+		</Text>
+		<Text Key="LogOnText">
+			<Translation Language="en-GB"><![CDATA[Log On]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Log på]]></Translation>
+		</Text>
+	</Namespace>
+	<Namespace Name="Home.Index">
+		<Text Key="Title">
+			<Translation Language="en-GB"><![CDATA[Home Page]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Forside]]></Translation>
+		</Text>
+		<Text Key="Heading">
+			<Translation Language="en-GB"><![CDATA[Welcome to ASP.NET MVC!]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Velkommen til ASP.NET MVC!]]></Translation>
+		</Text>
+	</Namespace>
+	<Namespace Name="Home.About">
+		<Text Key="Title">
+			<Translation Language="en-GB"><![CDATA[About us]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Om os]]></Translation>
+		</Text>
+		<Text Key="Heading">
+			<Translation Language="en-GB"><![CDATA[About]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Om]]></Translation>
+		</Text>
+	</Namespace>
+	<Namespace Name="MVCBootstrap.Web.Mvc.ViewModels.RegisterWithCalculation">
+		<Text Key="Username">
+			<Translation Language="en-GB"><![CDATA[Name]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Navn]]></Translation>
+		</Text>
+		<Text Key="EmailAddress">
+			<Translation Language="en-GB"><![CDATA[E-mail Address]]></Translation>
+			<Translation Language="da-DK"><![CDATA[E-mail adresse]]></Translation>
+		</Text>
+	</Namespace>
+</Localizations>

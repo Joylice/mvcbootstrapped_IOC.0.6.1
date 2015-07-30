@@ -1,0 +1,5 @@
+﻿@model MVCBootstrap.Web.Mvc.ViewModels.AlgebraCaptcha
+	@Html.AlgebraCaptcha(Model.Prefix)<br />
+	@Html.TextBoxFor(m => m.Result)
+	@Html.HiddenFor(m => m.Prefix)
+	@Html.ValidationMessageFor(m => m.Result)

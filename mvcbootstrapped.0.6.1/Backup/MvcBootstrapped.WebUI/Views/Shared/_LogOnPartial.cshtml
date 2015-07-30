@@ -1,0 +1,10 @@
+﻿@{
+	String ns = "CommonTexts";
+}
+@if(Request.IsAuthenticated) {
+	<text>@Html.LocalizedString("WelcomeText", ns, new { Username = User.Identity.Name })
+    [ @Html.ActionLink(Html.LocalizedString("LogOffText", ns), "LogOff", "Account") ]</text>
+}
+else {
+    @:[ @Html.ActionLink(Html.LocalizedString("LogOnText", ns), "LogOn", "Account") ]
+}
